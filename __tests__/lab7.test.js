@@ -205,7 +205,7 @@ describe('Basic user flow for Website', () => {
 
   // Checking to make sure that it remembers us removing everything from the cart
   // after we refresh the page
-  it('Checking number of items in cart on screen after reload', async () => {
+  it('Checking number of items in cart on screen after reload', async () => { // DONE
     console.log('Checking number of items in cart on screen after reload...');
 
     /**
@@ -226,7 +226,7 @@ describe('Basic user flow for Website', () => {
 
   // Checking to make sure that localStorage for the cart is as we'd expect for the
   // cart being empty
-  it('Checking the localStorage to make sure cart is correct', async () => {
+  it('Checking the localStorage to make sure cart is correct', async () => { // DONE
     console.log('Checking the localStorage...');
 
     /**
